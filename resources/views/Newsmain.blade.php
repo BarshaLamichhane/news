@@ -7,8 +7,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Newsportal</title>
     <link rel="stylesheet" href="css/app.css">
-
-    
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 

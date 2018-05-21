@@ -16,6 +16,10 @@ Route::get('/pigeon', 'PigeonController@index');
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('password', function () {
+  return view('passwordchange/passwordchange');
+});
+
 
 //Auth::routes();
 

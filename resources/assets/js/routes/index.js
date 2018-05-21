@@ -3,6 +3,7 @@ import VeeValidate from 'vee-validate';
 import VueRouter from 'vue-router';
 import Vuetify from 'vuetify'
 import VueI18n from 'vue-i18n'
+import VueSweetalert2 from 'vue-sweetalert2';
 
 
 
@@ -11,6 +12,7 @@ Vue.use(VueRouter);
 Vue.use(VeeValidate);
 Vue.use(Vuetify);
 Vue.use(VueI18n);
+Vue.use(VueSweetalert2);
 
 //routes
 const routes = [
